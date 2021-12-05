@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(153, 153, 153);
+  color: #1f1f1f;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+}
+
+.infos-navbar {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+  margin-right: 5vw;
+}
+
+#logo {
+  margin-left: 2vw;
+}
+
+#home {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+#home:hover {
+  color: white;
+}
+
+#tarifs-navbar {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+#tarifs-navbar:hover {
+  color: white;
+}
+
+#aboutus-color {
+  color: #1f1f1f;
+}
+
+#aboutus-color:hover {
+  color: white;
+}

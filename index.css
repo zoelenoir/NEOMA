@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  margin-top: 150px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img1 {
+  width: 25vw;
+  height: 30vh;
+}
+
+#img2 {
+  width: 25vw;
+  height: 30vh;
+}
+
+#img3 {
+  width: 25vw;
+  height: 30vh;
+}
+
+.text {
+  text-align: center;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12vh;
+  font-size: 30px;
+  line-height: 4.3vh;
+  font-family: "Bebas Neue", cursive;
+  padding-bottom: 7vh;
+  border-bottom: black solid 5px;
+}
+.div-vehicules {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #1f1f1f; */
+  margin-top: 10vh;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.form {
+  width: 15vw;
+  height: 60vh;
+  background-color: rgb(223, 223, 223);
+  border-radius: 30px;
+  margin: auto;
+  padding-left: 1.5vw;
+  padding-top: 1.5vh;
+  padding-right: 1.5vw;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+}
+#mercedes {
+  width: 15vw;
+  height: 25vh;
+  margin-left: 0.2vw;
+  margin-bottom: 7.5vh;
+}
+
+.div-principal-veh {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(white, #1f1f1f);
+  height: 100vh;
+  width: 100vw;
+}
+
+#titre {
+  margin-top: 10vh;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+#audi {
+  width: 16vw;
+  height: 25vh;
+  margin-top: 2vh;
+  margin-bottom: 5.5vh;
+}
+
+#bmw {
+  width: 15vw;
+  height: 22vh;
+  margin-top: 3.5vh;
+  margin-bottom: 6.6vh;
+}
+
+#rolls {
+  width: 15vw;
+  height: 19vh;
+  margin-top: 4vh;
+  margin-bottom: 9vh;
+}
+
+.label {
+  font-size: 25px;
+  color: #1f1f1f;
+  text-align: center;
+  margin-right: 0.5vw;
+  margin-bottom: 5vh;
+  font-family: "Bebas Neue", cursive;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.page-principale {
+  background-color: white;
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+.div-titre {
+  margin-top: 100px;
+  margin-left: 170px;
+  background-color: white;
+  width: 100vw;
+}
+
+.Titre {
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  margin-left: 10px;
+}
+
+.Infos {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.div-tarifs {
+  background-color: white;
+
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one {
+  background-color: #b4cdce;
+  width: 400px;
+  height: 500px;
+  margin-top: 70px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.two {
+  background-color: #e5e5e5;
+  width: 400px;
+  height: 500px;
+  margin-top: 70px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.three {
+  background-color: #d9d9d9;
+  width: 400px;
+  height: 500px;
+  margin-top: 70px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.durée {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.prix {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+}
