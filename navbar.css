@@ -35,6 +35,7 @@
 
 #home:hover {
   color: white;
+  font-size: 42px;
 }
 
 #tarifs-navbar {
@@ -44,6 +45,7 @@
 
 #tarifs-navbar:hover {
   color: white;
+  font-size: 42px;
 }
 
 #aboutus-color {
@@ -52,4 +54,15 @@
 
 #aboutus-color:hover {
   color: white;
+  font-size: 42px;
+}
+
+#reserver-navbar {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+#reserver-navbar:hover {
+  color: white;
+  font-size: 42px;
 }
